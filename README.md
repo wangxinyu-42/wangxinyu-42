@@ -1,16 +1,47 @@
-## wangxinyu 20231113112 23wanggongA1 2025
+# 王欣宇 · Xinyu Wang
 
-<!--
-**wangxinyu-42/wangxinyu-42** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Agent 应用开发 / Python 后端 / 智能运维**
 
-Here are some ideas to get you started:
+上海第二工业大学 · 网络工程本科在读。希望把自然语言交互与业务系统连接起来，构建有数据依据、能追踪过程的 AI 应用。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 实习与工程经验
+
+**华泰期货有限公司 · 运维开发实习生 · 2026.04 - 2026.07**
+
+- **AIOps 对话平台**：对接 AgentStudio 大模型服务，开发 SSE 流式对话、多路由意图分发、CMDB 自然语言查询与 Markdown 结果呈现。
+- **CMDB 资产稽核**：使用 Python / FastAPI 开发资产数据稽核服务，覆盖 4,130 余台设备；通过线程池并发将接口耗时由 40 秒降至 6 秒。
+- **开发与交付**：Mock 数据层、API 客户端封装、缓存复用、CentOS 离线部署脚本与服务交付。
+
+以上为个人原简历中的实习经历摘要；企业代码和内部数据不在本仓库公开。
+
+## 技术栈
+
+Python · FastAPI · JavaScript · SQL · MySQL · Linux · Shell · Git · Docker
+
+## 大模型工程案例库
+
+以下是**项目提供者授权提供的实验资料摘要**，用于展示后续学习与实践方向，**不计作本人已完成的项目或优化成果**。实验记录来自 2026-10-14 / 15 的 Jetson AGX Orin 64GB 环境。
+
+| 案例 | 已有实验记录 | 对 Agent 工程的启发 |
+| --- | --- | --- |
+| 推理服务延迟与前缀缓存 | 固定实验中，缓存开启后的冷 / 热请求 TTFT 中位数约 18.10 / 2.60 秒 | 区分预填充、生成与排队，验证可复用提示前缀 |
+| 开放环路负载与队列 | 单槽完成率约 5.67 请求/分钟；负载约 11.34 请求/分钟时，P95 总耗时约 105.70 秒 | 容量评估、限流和超载策略要结合尾延迟 |
+| RAG 检索与证据评测 | 12 份虚构文档、12 个问题、8 组分片 / 重叠 / top-k 配置 | 分开检查检索召回、答案、引用与无依据拒答 |
+| 烟雾 / 明火视觉对比 | 22 张图片、2 种部署、每种 2 遍，共 88 次正式请求 | 区分预标一致性、JSON 协议合规与位置准确性 |
+| Qwen 图片工作台 | 文生图、参考图编辑、串行批量、种子复用、刷新恢复；4 次真实 GPU 功能验收 | 围绕任务状态、幂等提交和可恢复交互构建产品 |
+
+[阅读实验条件、指标和失败边界 →](https://github.com/wangxinyu-42/wangxinyu-42/blob/main/EXPERIMENTS.md)
+
+这些记录是特定环境的小规模实验，不代表通用模型排名、生产 SLA 或商业验收。个人实践完成后，将另行记录本人负责的功能、提交和复现结果。
+
+## 接下来要完成的个人实践
+
+- **CMDB Agent**：在合成资产数据上实践受控工具调用、参数校验、执行轨迹和任务评测。
+- **RAG 与评测**：为业务问题建立固定样例，记录答案依据、拒答和失败原因。
+- **推理服务基础**：复现延迟 / 缓存 / 排队实验，保存版本、配置与原始结果。
+
+当前这些是实践计划，尚未作为个人完成项目展示。
+
+## 联系
+
+求职联系：3583904988@qq.com

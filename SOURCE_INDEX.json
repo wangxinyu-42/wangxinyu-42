@@ -1,0 +1,68 @@
+{
+  "reviewed_on": "2026-10-16",
+  "attribution": "Authorized reference experiments supplied by project owner; not candidate completed work.",
+  "raw_evidence_public": false,
+  "notes": "Only relative source identifiers and hashes. No host paths, network addresses, secrets, private image pixels, or raw chat transcripts.",
+  "sources": [
+    {
+      "source": "qwen-aiinfra-lab-20261015/metrics.csv",
+      "bytes": 1313,
+      "sha256": "6a5604b6bdd254b7e176031ac7cdacd848e8906fdff968864e692dfd6d146bb4"
+    },
+    {
+      "source": "qwen-aiinfra-lab-20261015/HANDOFF.txt",
+      "bytes": 1378,
+      "sha256": "c3b99a3ea6d08b8cb97b9d156cdf87d9587ea9e6749ebbb0ee806c6f7ffd6d2f"
+    },
+    {
+      "source": "qwen-aiinfra-lab-20261015/model-manifest.json",
+      "bytes": 753,
+      "sha256": "e3d27d2f119a5e2a95cdbdea7d5ca93182705558baeaa52d32bbbd40e38bc2dd"
+    },
+    {
+      "source": "qwen-commercial-benchmark-20261014/report/summary.json",
+      "bytes": 76356,
+      "sha256": "8e7e909543e080c05b9064a1a73a4a26b719f22299b6cd085f8ad3ce86b8d467"
+    },
+    {
+      "source": "qwen-commercial-benchmark-20261014/README.txt",
+      "bytes": 7012,
+      "sha256": "b9b8b514d05f6704d7cd4b9327fff12cf655d6fc9846cbab2c06f2e0441c67fc"
+    },
+    {
+      "source": "qwen-smoke-benchmark-20261014/report/smoke-summary.json",
+      "bytes": 54108,
+      "sha256": "b27c92e746c305827a36fc4f9d6a0187e7a331e91162501ea1e7e75db826f7bd"
+    },
+    {
+      "source": "qwen-smoke-benchmark-20261014/README.txt",
+      "bytes": 5213,
+      "sha256": "50474c77ea315ec25718e7eaffc028a7a4a52fd3f01938a1afab93beaf4a5d35"
+    },
+    {
+      "source": "qwen-image-workbench-20261015/交付与验证报告.txt",
+      "bytes": 6200,
+      "sha256": "cbe8132a734b56c2945dd4fb817d5f81b2f275c7cc5867576d574fcf00b00704"
+    },
+    {
+      "source": "qwen-image-workbench-20261015/verification/gpu-qa.json",
+      "bytes": 5754,
+      "sha256": "0d0009143b43cc3058ae945e377f1b2b4eaef2baceddd77ec0df111122f211cb"
+    },
+    {
+      "source": "qwen-image-workbench-20261015/verification/gpu-resume-qa.json",
+      "bytes": 319,
+      "sha256": "ebbcba9a0ba0c19bae5fb61f77c9e17f44a81b1e7cdbcdaa3cad7a6e269d0d5c"
+    },
+    {
+      "source": "qwen-web-concurrent-20261015/使用说明.txt",
+      "bytes": 552,
+      "sha256": "91d16aec07414db50964bd10aadcb797df784291699084a8e7653031a587db73"
+    },
+    {
+      "source": "qwen-web-concurrent-20261015/results/p4-concurrent-responses.json",
+      "bytes": 6463,
+      "sha256": "e53a3ce47589eeef12ca5df254dd5443cb0ef53bd314208f67fd8d6521ace543"
+    }
+  ]
+}
